@@ -63,4 +63,41 @@ p {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 425px) {
+.headerContainer {
+    width: 100%;
+    height: 210px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 50px;
+}
+p {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+h1 {
+    padding-top: 40px;
+    font-size: 70px;
+}
+p {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 880px){
+    h1 {
+    padding-top: 40px;
+    font-size: 70px;
+}
+p {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+}
 </style>

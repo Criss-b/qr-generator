@@ -13,4 +13,9 @@ export default {
 template {
   width: 100%;
 }
+@media screen and (max-width: 320px) {
+  template {
+  width: 100%;
+}
+}
 </style>

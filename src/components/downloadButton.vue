@@ -36,10 +36,19 @@
     width: 170px;
     background-color: cornflowerblue;
 }
+.btn:link {
+    color: darkblue;
+}
 .btn:hover {
     background-color: lightcyan;
+    color: darkblue;
 }
 .btn:active {
     color: darkblue;
+}
+@media screen and (max-width: 768px) {
+    .btn {
+    margin-bottom: 10px;
+}
 }
 </style>

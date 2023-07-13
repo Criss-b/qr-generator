@@ -20,7 +20,6 @@
             generates() {
                 const inputValue = this.inputText;
                 this.$emit("textValue", inputValue);
-                console.log(inputValue);
             }
         },
     };
@@ -57,6 +56,7 @@
     height: 30px;
     width: 500px;
     border: none;
+    border-radius: 0px!important;
     font-family: minecraft;
 }
 #link:focus {
@@ -75,5 +75,15 @@
 .btn:hover {
     background-color: lightcyan;
     cursor: pointer;
+}
+@media screen and (min-width: 320px) and (max-width: 376px) {
+    #link {
+    width: 200px;
+    }
+}
+@media screen and (min-width: 377px) and (max-width: 740px) {
+    #link {
+    width: 250px;
+    }
 }
 </style>

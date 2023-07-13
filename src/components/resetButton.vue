@@ -36,6 +36,7 @@
     background-color: cornflowerblue;
     border: none;
     padding: 6px;
+    color: darkblue;
 
 }
 .btn:hover {

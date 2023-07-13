@@ -99,6 +99,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 15px;
 }
 .errorIcon {
     flex: 1;
@@ -112,5 +113,22 @@ export default {
 }
 .display {
     text-align: center;
+}
+.display p {
+    font-size: 1.2em;
+}
+.display img {
+    width: 80%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .qrContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.display img {
+    margin-bottom: 10px;
+}
 }
 </style>
