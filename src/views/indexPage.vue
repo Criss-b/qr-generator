@@ -1,17 +1,20 @@
 <template>
-    <div class="headerContainer">
-        <h1>QRCODE generator</h1>
-        <p>Compila il campo di testo e clicca su GENERA</p>
-    </div>
-    <div class="contentContainer">
-        <inputText @textValue="onTextValue"></inputText>
+    <div class="indexContainer">
+        <div class="headerContainer">
+            <h1>QRCODE generator</h1>
+            <p>Compila il campo di testo e clicca su GENERA</p>
+        </div>
+        <div class="contentContainer">
+            <inputText @textValue="onTextValue"></inputText>
+        </div>
     </div>
 </template>
 
 <script>
 import inputText from '@/components/inputText.vue';
+
 export default {
-    components: { inputText },
+    components: { inputText, },
     data() {
         return {
             isGenerates: false,
@@ -33,15 +36,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@font-face {
-  font-family: minecraft;
-  src: url("@/assets/font/Minecraft.ttf");
+.indexContainer {
+    width: 100%;
+    min-height: 100vh;
 }
 .headerContainer {
-    font-family: minecraft;
     background-color: cornflowerblue;
-    background-attachment: fixed;
-    background-size: cover;
     width: 100%;
     height: 300px;
     letter-spacing: 3px;

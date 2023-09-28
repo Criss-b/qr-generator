@@ -1,16 +1,15 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import index from '../views/indexPage.vue'
-import qrcode from '../views/qrcodePage.vue'
-
 
 const routes = [
   {
+    name: "index",
     path: '/',
-    component: index,
+    component: () => import(/* webpackChunkName: "Index" */ "../views/indexPage.vue") ,
   },
   {
+    name: 'qrcode',
     path: '/qrcode',
-    component: qrcode,
+    component: () => import(/* webpackChunkName: "qrCode" */ "../views/qrcodePage.vue"),
   },
 ]
 

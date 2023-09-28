@@ -17,13 +17,10 @@ import displayQr from '@/components/displayQr.vue';
 </script>
 
 <style lang="scss" scoped>
-@font-face {
-  font-family: minecraft;
-  src: url("@/assets/font/Minecraft.ttf");
-}
 .contentContainer {
-    font-family: minecraft;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 </style>

@@ -16,10 +16,6 @@
 </script>
 
 <style lang="scss" scoped>
-@font-face {
-  font-family: minecraft;
-  src: url("@/assets/font/Minecraft.ttf");
-}
 .resetContainer {
     display: flex;
     justify-content: center;

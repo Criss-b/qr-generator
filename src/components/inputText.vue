@@ -26,12 +26,8 @@
 </script>
 
 <style lang="scss" scoped>
-@font-face {
-  font-family: minecraft;
-  src: url("@/assets/font/Minecraft.ttf");
-}
 .inputContainer {
-    background-color: rgba(200, 211, 232, 0.299);
+    background-color: #c8d3e84c;
     color: darkblue;
     height: 200px;
     width: 70%;
@@ -53,11 +49,11 @@
     font-size: 25px;
 }
 #link {
+    font-family: minecraft;
     height: 30px;
     width: 500px;
     border: none;
     border-radius: 0px!important;
-    font-family: minecraft;
 }
 #link:focus {
     border: 3px solid darkblue;

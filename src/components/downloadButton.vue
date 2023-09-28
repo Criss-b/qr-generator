@@ -28,12 +28,14 @@
     align-items: center;
 }
 .btn {
+    font-size: 19px;
     color: darkblue;
     text-decoration: none;
     padding-top: 10px;
     text-align: center;
     height: 30px;
     width: 170px;
+    padding: 8px;
     background-color: cornflowerblue;
 }
 .btn:link {
@@ -48,7 +50,7 @@
 }
 @media screen and (max-width: 768px) {
     .btn {
-    margin-bottom: 10px;
-}
+        margin-bottom: 10px;
+    }
 }
 </style>
