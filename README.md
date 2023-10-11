@@ -1,24 +1,11 @@
-# qr-generator
+# WEB APP PER LA CREAZIONE DI QRCODE
 
-## Project setup
-```
-npm install
-```
+### PAGINA PRINCIPALE
+> Inserire qualsiasi link nell'input di testo e cliccare su "GENERA".
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### PAGINA QRCODE
+> Verrà generato il qrcode del link inserito e sarà possibile scaricare l'immagine
+> in formato .jpg o .svg
+> con il tasto "RIGENERA" si torna alla pagina principale per un nuovo qrcode.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Link diretto alla web app: [QR-GENERATOR]()
