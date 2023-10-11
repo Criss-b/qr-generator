@@ -8,4 +8,4 @@
 > in formato .jpg o .svg
 > con il tasto "RIGENERA" si torna alla pagina principale per un nuovo qrcode.
 
-Link diretto alla web app: [QR-GENERATOR]()
+Link diretto alla web app: [QR-GENERATOR](https://cb-qrcode-generator.netlify.app/)
