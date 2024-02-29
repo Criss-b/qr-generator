@@ -1,6 +1,6 @@
 <template>
     <div class="footerContainer">
-        <p class="credits">POWERED BY CB</p>
+        <p class="credits">COPYRIGHT © CB 2023</p>
     </div>
 </template>
 
